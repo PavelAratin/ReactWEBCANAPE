@@ -1,0 +1,17 @@
+.button {
+  padding: 10px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background: rgb(21, 142, 255);
+  color: white;
+  transition: opacyty 0.1s linear;
+  -webkit-transition: opacyty 0.1s linear;
+  -moz-transition: opacyty 0.1s linear;
+  -ms-transition: opacyty 0.1s linear;
+  -o-transition: opacyty 0.1s linear;
+  &:hover {
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
