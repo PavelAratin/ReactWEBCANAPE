@@ -8,10 +8,9 @@ function func(arg) {
 
 function Button(props) {
   // console.log(props.comment)
-  const [visible, setVisible] = React.useState(true)
   function func(props) {
   const vcommentItems = props.comment.map(function (commentItem) {
-   console.log(commentItem.visible === tru && 'tru')
+   console.log(commentItem)
   })
 }
   return (
